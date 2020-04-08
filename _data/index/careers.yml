@@ -1,16 +1,20 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: Google
-  link: http://www.google.com/
-  date: July 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  job: Programming Internship
+- name: Resultados Digitais
+  link: http://www.resultadosdigitais.com/
+  date: 2020 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Senior Software Engineer no CRM
 
-- name: Facebook
-  link: http://www.facebook.com/
-  date: May 2014 - July 2017
-  job: Web Assistant
+- name: Wine.com.br
+  link: http://www.wine.com.br/
+  date: 2015 - 2018
+  job: Gerente dos times de desenvolvimento de Sistemas Internos e canais de e-commerce (wine.com.br, wine2b.com.br, vinhofacil.com.br, wineeventos.com.br e por aí vai)
 
-- name: SAP
-  link: https://www.sap.com/
-  date: 2010 - 2014
-  job: Software Developer
+- name: Giran E-commerce Solutions
+  link: https://www.giran.com.br
+  date: 2009 - 2016
+  job: CIO & Fundador
+
+- name: Lots of jobs as a developer :)
+  date: 1998 - 2009
+  job:  (Back|Front)end Developer usando ASP, PHP, Javascript ...
