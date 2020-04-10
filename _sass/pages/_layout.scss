@@ -31,21 +31,25 @@
   }
   .author_name {
     display: block;
-    color: #F36170;
-    font-size: 1.75em;
+    color: $white;
+    font-size: 2.25em;
     text-transform: lowercase;
+    font-family: $font-family-serif;
   }
   .author_job {
     display: block;
-    color: $secondary;
+    color: $primary;
     font-size: 0.8em;
     font-weight: 700;
     text-transform: uppercase;
     margin: -5px auto 10px;
   }
   .author_bio {
+    color: $secondary;
     font-size: 90%;
     display: block;
+    font-size: 1.25rem;
+    font-weight: 300;
   }
   @include media-query($medium-screen) {
     text-align: right;
@@ -90,10 +94,11 @@
       margin-top: 1em;
       text-transform: lowercase;
       font-size: 85%;
-      color: $secondary;
+      color: $primary;
       &:hover,
       &:focus {
-        color: lighten($secondary, 14%);
+        color: lighten($white, 14%);
+        text-decoration: underline;
       }
     }
   }

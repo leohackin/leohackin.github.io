@@ -46,7 +46,7 @@ section.post {
 
 // Post title
 .post-title {
-
+  text-decoration: underline; 
 }
 
 .post-title-link {
@@ -95,7 +95,7 @@ a.read-more {
 }
 
 #post h1 {
-  margin: 0.5em 0 1em;
+  // margin: 0.5em 0 1em;
 }
 #post h2 {
   margin: 2em 0 0.8em;
@@ -105,6 +105,18 @@ a.read-more {
 #post h3 {
   margin: 1.75em 0 1.2em;
   position: relative;
+}
+
+#post .post-content {
+  & a {
+    margin-top: 1em;
+    color: $info;
+    &:hover,
+    &:focus {
+      color: lighten($info, 14%);
+      text-decoration: underline;
+    }
+  }
 }
 
 #page {
@@ -244,5 +256,19 @@ a.read-more {
     background-color: $white;
     color: #5f99cf;
     border-color: #5f99cf;
+  }
+}
+
+// About
+
+#about {
+  & a {
+    margin-top: 1em;
+    color: $link-content;
+    &:hover,
+    &:focus {
+      color: lighten($link-content-hover, 14%);
+      text-decoration: underline;
+    }
   }
 }
