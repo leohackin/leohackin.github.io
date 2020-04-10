@@ -6,8 +6,8 @@
 title: Léo Hackin
 email:
 description: Software Engineer at ResultadosDigitais.com.br
-url: # the base hostname & protocol for your site
-keywords: ["blog", "leohackin"]
+url: leohackin.com.br # the base hostname & protocol for your site
+keywords: ["blog", "leohackin", "software engineer", "ruby", "rails", "development", "backend"]
 
 plugins:
   - jekyll-multiple-languages-plugin
