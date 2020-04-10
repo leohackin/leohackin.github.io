@@ -4,7 +4,7 @@
   position: fixed;
   text-align: center;
   width: 100%;
-  min-height: 400px;
+  min-height: 350px;
   padding: 30px 15px 20px;
   z-index: 1;
   @include media-query($small-screen) {
@@ -48,7 +48,7 @@
     color: $secondary;
     font-size: 90%;
     display: block;
-    font-size: 1.25rem;
+    font-size: 1.00rem;
     font-weight: 300;
   }
   @include media-query($medium-screen) {
