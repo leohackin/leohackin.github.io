@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<div class="row" id="about">
+<div class="row">
     <div class="col l7">
         <div class="row">
-            <div class="col">
+            <div class="col" id="about-content">
                 {% capture my_include %}{% include sections/about.md %}{% endcapture %}
                 {{ my_include | markdownify }}     
             </div>
