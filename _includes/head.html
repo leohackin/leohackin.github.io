@@ -23,10 +23,10 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ title | escape }}">
   <meta name="twitter:description" content="{{ description | escape }}">
-  {% if page.image.feature %}
-    <meta property="twitter:image" content="{{ site.url }}/img/{{ page.image.feature }}">
+  {% if page.related_image %}
+    <meta property="twitter:image" content="{{ site.url }}/img/{{ page.related_image }}">
   {% else %}
-    <meta property="twitter:image" content="{{ site.url }}/img/leonids-logo.png">
+    <meta property="twitter:image" content="{{ site.url }}/img/leohackin.jpg">
   {% endif %}
 
   <!-- Open Graph Tags -->
@@ -34,10 +34,10 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:title" content="{{ title | escape }}">
   <meta property="og:description" content="{{ description | escape }}">
-  {% if page.image.feature %}
-    <meta property="og:image" content="{{ site.url }}/img/{{ page.image.feature }}">
+  {% if page.related_image %}
+    <meta property="og:image" content="{{ site.url }}/img/{{ page.related_image }}">
   {% else %}
-    <meta property="og:image" content="{{ site.url }}/img/leonids-logo.png">
+    <meta property="og:image" content="{{ site.url }}/img/leohackin.jpg">
   {% endif %}
   <title>{{ title }}</title>
 
