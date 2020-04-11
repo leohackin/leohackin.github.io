@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 
 {% if page.image.feature %}
@@ -33,6 +34,11 @@ layout: default
   </header>
 
   <article class="post-content">
+    
+    {% if page.related_image %}
+      <img src="{{ page.related_image }}" alt="">
+    {% endif %}
+
     {{ content }}
   </article>
 </div>
@@ -57,8 +63,8 @@ layout: default
     </li>
   </ul>
 </div><!-- end share-buttons -->
-
+eee
 {% if site.owner.disqus-shortname and page.comments == true %}
-<div id="disqus_thread"></div>
+sss<div id="disqus_thread"></div>
 {% include disqus.html %}
 {% endif %}
