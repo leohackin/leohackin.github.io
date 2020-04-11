@@ -63,8 +63,7 @@ comments: true
     </li>
   </ul>
 </div><!-- end share-buttons -->
-eee
-{% if site.owner.disqus-shortname and page.comments == true %}
-sss<div id="disqus_thread"></div>
+{% if site.owner.disqus-shortname %}
+<div id="disqus_thread"></div>
 {% include disqus.html %}
 {% endif %}
