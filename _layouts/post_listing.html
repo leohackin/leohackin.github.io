@@ -38,6 +38,9 @@ layout: default
     <div class="post-description">
         {{ post.excerpt }}
     </div>
+    <div>
+      <a href="{{ site.url }}{{ post.url }}" class="btn">Ler Mais</a>
+    </div>
     {% endif %}
 
     {% if post.image.feature %}

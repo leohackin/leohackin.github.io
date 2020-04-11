@@ -11,7 +11,7 @@ O que queremos deixar de legado pro mundo? Essa é uma frase que me martelou nos
 <!--more-->
 > “Tudo que temos de decidir é o que fazer com o tempo que nos é dado.”  – __Gandalf__
 
-Nos últimos anos tenho postado um híbrido de assuntos diversos, que iam de produtividade à coisas do cotidiano na gestão de times. Com esse Back to the Code, minha idéia é falar não apenas das coisas que funcionavam e continuam funcionando, como as que estou descobrindo enssa volta às origens.
+Nos últimos anos tenho postado um híbrido de assuntos diversos, que iam de produtividade à coisas do cotidiano na gestão de times. Com esse Back to the Code, minha idéia é falar não apenas das coisas que funcionavam e continuam funcionando, como as que [estou descobrindo nessa volta às origens](https://medium.com/@leohackin/balan%C3%A7o-2019-at%C3%A9-mais-e-obrigado-pelos-peixes-8e6eeb5d1516).
 
 O mundo do desenvolvimento mudou demais nos últimos 5 anos: TDD, Integração contínua, Deploy contínuo, patterns e tudo mais hoje são uma realidade e o mínimo na bagagem de qualquer desenvolvedor sério que deseja entrar numa empresa séria. 
 

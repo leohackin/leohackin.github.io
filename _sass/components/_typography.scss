@@ -34,11 +34,12 @@ blockquote {
 
 a {
    text-decoration: none;
-   color: $primary;
+   color: black;
    &:hover,
    &:focus {
-     color: lighten($primary, 14%);
+     color: lighten($white, 14%);
      text-decoration: none;
+     background-color: black;
    }
 }
 
@@ -92,6 +93,6 @@ small,
 
 p {
   margin: 1.2em 0;
-  word-spacing: 0.05em;
-  line-height: 1.6em;
+  // word-spacing: 0.05em;
+  // line-height: 1.6em;
 }
