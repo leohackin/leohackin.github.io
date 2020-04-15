@@ -43,6 +43,7 @@ Além disso, algumas vantagens legais né:
 * eu posso colocar o que quiser, sem as limitações do Medium (_yay!_)
 * a edição de um post em Markdown é absurdamente intuitiva
 * escrever um post é quase tão legal quanto programar
+* por ser estático, não pode ser invadido _(update from my friend Deivid Bitti)_
 
 O grande barato, não é apenas sair digitando feito um louco, mas tratar o blog como um bonsai: com paciência, com foco e atenção para cada post publicado, cada customização feita.
 
