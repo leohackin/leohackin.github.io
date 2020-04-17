@@ -1,6 +1,8 @@
-<button type="button" class="hide-button" data-content-id="content-{{ include.id }}">{{ include.button }}</button>
-<div class="hide-content" id="content-{{ include.id }}">
+<a href="#content-{{ include.id }}" class="hide-button btn" data-content-id="content-{{ include.id }}">{{ include.button }}</a>
+<div class="hide-content" id="content-{{ include.id }}" name="content-{{ include.id }}">
+    {% if include.content %}
     <blockquote>{{ include.content }}</blockquote>
+    {% endif %}
     {% if include.image %}
     <img src="{{ include.image }}" />
     {% endif %}
