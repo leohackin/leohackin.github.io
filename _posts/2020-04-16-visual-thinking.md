@@ -44,7 +44,7 @@ Já ouviu essa expressão popular? Existe um mundo de sabedoria implícito, mas 
 
 > Nosso cérebro é visual: ele __processa__ o conceito de __uma imagem 60000 mais rápido__ que textos
 
-Já notou como você consegue assistir televisão e fazer outras coisas mas não consegue ler um texto sem focar nele 100% da sua atenção para compreende-lo? Sabia que a [leitura ao celular mata, por dia, 150 pssoas no Brasil](https://canaltech.com.br/comportamento/celular-no-transito-mata-150-pessoas-por-dia-no-brasil-mesmo-com-o-viva-voz-114058/)? __Quando mais visual é a informação, mais fácil é nossa assimilição: o cérebro é uma máquina de fazer associações visuais.__ No final das contas, uma palavra ou um texto é um monte de imagens.
+Já notou como você consegue assistir televisão e fazer outras coisas mas não consegue ler um texto sem focar nele 100% da sua atenção para compreende-lo? Sabia que a [leitura ao celular mata, por dia, 150 pessoas no Brasil](https://canaltech.com.br/comportamento/celular-no-transito-mata-150-pessoas-por-dia-no-brasil-mesmo-com-o-viva-voz-114058/)? __Quando mais visual é a informação, mais fácil é nossa assimilição: o cérebro é uma máquina de fazer associações visuais.__ No final das contas, uma palavra ou um texto é um monte de imagens.
 
 > Por que a gente demora pra ler um texto: porque a gente tem que concatenar essas imagens das letras numa sequência lógica que faça sentido.
 
