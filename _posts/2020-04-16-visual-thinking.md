@@ -52,7 +52,7 @@ __Façamos um teste.__
 
 > Vou te mostrar um botão logo abaixo: quando clicar, exibirei um texto e uma imagem que representam a mesma coisa. Veja o que acontece no seu cérebro.
 
-{% include hide_content.html id="first-exercise" button="Clique aqui para mostrar o texto" content="Uma maça vermelha e uma banana" image="/assets/posts/2020/04/visual-thinking-pilot/maca-e-banana.png" %}
+{% include hide_content.html id="first-exercise" button="Clique aqui para mostrar o texto" content="Uma maçã vermelha e uma banana banana amarela" image="/assets/posts/2020/04/visual-thinking-pilot/maca-e-banana.png" %}
 
 Muito provavelmente você viu a imagem e compreendeu suas características muito mais rápido do que leu e compreendeu o texto, certo? A imagem, inclusive, passa muito mais características: no texto seria uma longa frase. __Uma imagem vale mais que mil palavras__ e você agora compreendeu isso de forma didática. Isso tem um motivo comprovado. 
 
@@ -77,6 +77,8 @@ __Vamos pra mais um teste.__
 Eu vou mostrar o meu desenho mais tarde, mas o importante agora é: provavelmente você desenhou uma forma que representa uma coisa, outra forma que representa outra coisa e uma outra forma que representa a distância entre essas duas coisas.
 
 Algumas pessoas escrevem uma palavra de um lado, uma palavra de outro, traçam uma linha entre as duas e escrevem uma referência acima da linha. _E eu aposto que só de você ler o que eu escrevi, você imaginou isso na sua cabeça certo? :)_
+
+{% include hide_content.html id="second-exercise-draw" button="Clique aqui para ver como desenhei :)" image="/assets/posts/2020/04/visual-thinking-pilot/exercicio-2.jpg" %}
 
 #### Alfabeto visual e o Sketching
 
