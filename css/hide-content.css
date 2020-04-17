@@ -1,0 +1,7 @@
+.hide-content {
+    display: none;
+}
+
+.hide-content > blockquote {
+    font-size: 2rem;
+}
