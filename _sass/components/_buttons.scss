@@ -20,9 +20,10 @@
     color: $white;
     border-color: $btn-color;
   }
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: $white;
-    color: $btn-color;
+    color: $text-color;
     border-color: $btn-color;
   }
 }

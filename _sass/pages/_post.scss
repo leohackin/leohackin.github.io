@@ -125,7 +125,6 @@ a.read-more {
     text-decoration: underline;
     &:hover,
     &:focus {
-      color: lighten($white, 14%);
       text-decoration: none;
     }
   }
