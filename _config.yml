@@ -4,13 +4,19 @@
 ####################################
 #
 title: Léo Hackin
+author: Léo Hackin
 email:
-description: Software Engineer at ResultadosDigitais.com.br
+description: Um software engineer capixaba no flow do aprendizado e descoberta contínua. Rubysta, Escritor, Músico, Pai, Marceneiro e o que mais vier pela frente.
 url: //leohackin.com.br # the base hostname & protocol for your site
 keywords: ["blog", "leohackin", "software engineer", "ruby", "rails", "development", "backend"]
 
 plugins:
   - jekyll-multiple-languages-plugin
+  - jekyll-feed
+
+feed:
+  path: atom.xml
+  excerpt_only: true
 
 languages: ["pt-br", "en"]
 exclude_from_localizations: ["javascript", "images", "css"]

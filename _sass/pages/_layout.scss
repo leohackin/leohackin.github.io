@@ -47,9 +47,12 @@
   .author_bio {
     color: $secondary;
     font-size: 90%;
-    display: block;
+    display: none;
     font-size: 1.00rem;
     font-weight: 300;
+    @include media-query($medium-screen) {
+      display: block;
+    }
   }
   @include media-query($medium-screen) {
     text-align: right;
@@ -102,4 +105,50 @@
       }
     }
   }
+}
+.subscribe {
+  margin-top: 0.5em;
+  color: #999;
+  font-size: 85%;
+  display: block;
+  a {
+    color: $secondary;
+    &:hover,
+    &:focus {
+      color: lighten($secondary, 14%);
+    }
+  }
+  input {
+    padding: 5px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #666;
+    background-color: #241e1e;
+    color: #999;
+    border-style: solid;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.0);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  }
+  form {
+    display: block;
+  }
+}
+
+.response {
+  font-size: 65%;
+  a {
+    color: white;
+    &:hover,
+    &:focus {
+      color: lighten($secondary, 14%);
+    }
+  }
+}
+
+#mce-error-response {
+  color: red;
+}
+#mce-success-response {
+  color: white;
 }
