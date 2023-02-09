@@ -3,10 +3,10 @@
 # Site wide configuration
 ####################################
 #
-title: Léo Hackin - 2023
+title: Léo Hackin 2023
 author: Léo Hackin
 email:
-description: Um blog sobre tecnologia, produtividade, e-commerce e auto-conhecimento. Geek. Incorrigível Otimista. Professor, Consultor, Conselheiro, Empreendedor e Pai. :)
+description: Dev, Geek e Incorrigível Otimista que gosta de criar coisas e resolver problemas (quase sempre) com tecnologia.
 url: //leohackin.com.br # the base hostname & protocol for your site
 keywords:
   [
@@ -59,7 +59,7 @@ owner:
   name: Léo Hackin
   avatar: leohackin.jpg
   # job: "No flow de aprendizado contínuo"
-  bio: "Um blog sobre tecnologia, produtividade, e-commerce e auto-conhecimento. Geek. Incorrigível Otimista. Professor, Consultor, Conselheiro, Empreendedor e Pai. :)"
+  bio: "Dev, Geek e Incorrigível Otimista que gosta de criar coisas e resolver problemas (quase sempre) com tecnologia."
   email:
   disqus-shortname: leohackin
   twitter: leohackin
