@@ -6,9 +6,20 @@
 title: Léo Hackin
 author: Léo Hackin
 email:
-description: Um software engineer capixaba no flow do aprendizado e descoberta contínua. Rubysta, Escritor, Músico, Pai, Marceneiro e o que mais vier pela frente.
+description: Um blog sobre tecnologia, produtividade, e-commerce e auto-conhecimento. Geek. Incorrigível Otimista. Professor, Consultor, Conselheiro, Empreendedor e Pai. :)
 url: //leohackin.com.br # the base hostname & protocol for your site
-keywords: ["blog", "leohackin", "software engineer", "ruby", "rails", "development", "backend"]
+keywords:
+  [
+    "blog",
+    "leohackin",
+    "software engineer",
+    "engineering",
+    "development",
+    "gtd",
+    "ztd",
+    "pomodoros",
+    "ecommerce",
+  ]
 
 plugins:
   - jekyll-multiple-languages-plugin
@@ -26,11 +37,11 @@ exclude_from_localizations: ["javascript", "images", "css"]
 # Jekyll configuration
 ####################################
 #
-timezone:          Brazil/SaoPaulo
-markdown:          kramdown
-highlighter:       red
+timezone: Brazil/SaoPaulo
+markdown: kramdown
+highlighter: red
 excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+permalink: /articles/:year-:month/:title
 
 kramdown:
   auto_ids: true
@@ -48,8 +59,8 @@ owner:
   name: Léo Hackin
   avatar: leohackin.jpg
   # job: "No flow de aprendizado contínuo"
-  bio: "Um software engineer capixaba no flow do aprendizado e descoberta contínua. Rubysta, Escritor, Músico, Pai, Marceneiro e o que mais vier pela frente."
-  email: 
+  bio: "Um blog sobre tecnologia, produtividade, e-commerce e auto-conhecimento. Geek. Incorrigível Otimista. Professor, Consultor, Conselheiro, Empreendedor e Pai. :)"
+  email:
   disqus-shortname: leohackin
   twitter: leohackin
   facebook: #leohackin
