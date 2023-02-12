@@ -1,9 +1,19 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: Resultados Digitais
+- name: Sallve.com.br
   link: http://www.resultadosdigitais.com/
   date: 2020 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Diretor de tecnologia :)
+
+- name: Resultados Digitais
+  link: http://www.resultadosdigitais.com/
+  date: 2020 - 2020
   job: Software Engineer | RD CRM
+
+- name: 9gLabs
+  link: https://www.9glabs.com.br
+  date: 2019 - 2019
+  job: Fundador
 
 - name: Wine.com.br
   link: http://www.wine.com.br/

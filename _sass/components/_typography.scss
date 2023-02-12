@@ -37,8 +37,9 @@ a {
    color: black;
    &:hover,
    &:focus {
-     color: lighten($white, 14%);
-     text-decoration: none;
+    //  color: lighten($white, 14%);
+    font-weight:bolder;
+    text-decoration: none;
     
    }
 }

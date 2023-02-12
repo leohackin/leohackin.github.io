@@ -34,7 +34,7 @@
 
 // Post Section
 section.post {
-	margin-bottom: 80px;
+	margin-bottom: 10px;
 }
 
 // Back home button
@@ -73,6 +73,9 @@ section.post {
 .post-meta {
   font-size: 13px;
   font-weight: bold;
+  float: left;
+  margin-right: 20px;
+  margin-top: 7px;
 	.post-date {
 		color: $secondary;
 	}

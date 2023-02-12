@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Léo Hackin 2023
+title: Léo Hackin @ 2023
 author: Léo Hackin
 email:
 description: Dev, Geek e Incorrigível Otimista que gosta de criar coisas e resolver problemas (quase sempre) com tecnologia.
@@ -19,6 +19,7 @@ keywords:
     "ztd",
     "pomodoros",
     "ecommerce",
+    "shopify"
   ]
 
 plugins:
