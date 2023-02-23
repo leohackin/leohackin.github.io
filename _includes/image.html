@@ -1,5 +1,5 @@
 <figure class="image">
-    <img src="{{ include.url }}" alt="{{ include.description }}">
+    <img src="{{ include.url }}" alt="{{ include.description }}" width="{{ include.width | default: '100%' }}">
     <figcaption>{{ include.description }}</figcaption>
     <small><a href='{{ include.ref }}' target="_blank">{{ include.ref }}</a></small>
 </figure>
