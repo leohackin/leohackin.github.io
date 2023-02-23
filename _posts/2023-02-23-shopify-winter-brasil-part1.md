@@ -6,7 +6,7 @@ categories: tech
 tags: ["shopify","shopify-editions","winter-23","brasil"]
 ---
 
-Desde o ano passado, a Shopify tem agrupado diversas novidades em lançamentos programados chamados "Editions". Ano passado tivemos o [Summer '22](https://www.shopify.com/editions/summer2022){:target="_blank"} chamado `Connect to Consumer` e essa ano fomos agraciados com o [Winter '23](https://www.shopify.com/br/editions/winter2023){:target="_blank"} chamado de `Built to last`. 
+Desde o ano passado, a Shopify tem agrupado diversas novidades em lançamentos programados chamados "Editions". Ano passado tivemos o [Summer '22](https://www.shopify.com/editions/summer2022){:target="_blank"} chamado `Connect to Consumer` e esse ano fomos agraciados com o [Winter '23](https://www.shopify.com/br/editions/winter2023){:target="_blank"} chamado de `Built to last`. 
 
 > Update: eles já traduziram para algo mais global e chamaram "1º semestre de 2023"
 
@@ -16,7 +16,7 @@ Foram +100 novidades do produto (são 6 meses de trabalho e melhorias) em todas 
 
 Sabemos que várias coisas super maneiras não se propagam de imediato no Brasil e são pedidos de longa data como o Shopify Payments (_vem payments_). Mas várias novidades estão disponíveis, **SIM**, para gente imediato. Esse post deve gerar muitos outros sobre cada novidade, mas vai um resumão do que a gente consegue aproveitar aqui, já.
 
-**Sou separar essa análise em mais posts pois é bastante novidade. 🙏🏽**
+**Vou separar essa análise em mais posts pois é bastante novidade. 🙏🏽**
 
 Para facilitar, vou usar um 👍🏽 para o que chega para gente, 👎🏽 para os que não vão chegar, ❓ para os que ainda não se sabe quando nem se vão chegar para gente... ahhh, e links para as features já em pt-BR ;). **Enjoy!**
 {:.notice}
@@ -27,9 +27,9 @@ Para facilitar, vou usar um 👍🏽 para o que chega para gente, 👎🏽 para 
 
 Muitos não sabem, mas a infraestrutura do Shopify até uns meses atrás não ficava perto da gente, o que gerava mais "demora" (vou usar esse termo para não ser muito técnico) para carregar as coisas. A plataforma vem investindo cada vez mais na resolução do problema, não apenas melhorando as CDNs (servidores de distribuição de conteúdo que guardam imagens, arquivos e afins para entregarem esse conteúdo mais rápido) de entrega de conteúdo mas agora também entregando a entrega da página inteira de servidores mais próximos, o que reduz o TTFB (Time to First Byte) na prática.
 
-Além da velocidade para experiência de compara do usuário final, esse ganho no TTFB favorece bastante o SEO por conta da melhoria nas métricas no Pagespeed, que é uma métrica importante que o Google usa para indexar e aumentar a relevância do site nas buscas.
+Além da velocidade para experiência de compra do usuário final, esse ganho no TTFB favorece bastante o SEO por conta da melhoria nas métricas no Pagespeed, que é uma métrica importante que o Google usa para indexar e aumentar a relevância do site nas buscas.
 
-Olhando o mapa, se ele for verdadeira, já está bem legal no BR:
+Olhando o mapa, se ele for verdadeiro, já está bem legal no BR:
 
 {% include image.html url="/assets/posts/2023/2023-02-23-shopify-winter-brasil-part1/rede_cdn.png" width="40%" %}
 
@@ -43,13 +43,13 @@ Se quiser sentir um gostinho de como vai ficar, ao vivo, acesse: [https://shopif
 
 **Agora, fique feliz: o One-Page Checkout será para todos os merchants e países! 💖**
 
-Se não tiver paciência para navegar no link [veja o vídeo exibido na página do evento](https://www.shopify.com/br/editions/winter2023#one-page-checkout){:target="_blank"}: é bem bacana e dá idéia de quanto isso ajudará na conversão. Eles utilizaram a experiência mais fluída que foi testada bastante com o Shop Pay e o checkouts expressos nativos para chegar numa experiência que converte muito mais. (_sempre disse que one page checkout no Brasil bombava, e vou morrer afirmando isso_ 😅)
+Se não tiver paciência para navegar no link [veja o vídeo exibido na página do evento](https://www.shopify.com/br/editions/winter2023#one-page-checkout){:target="_blank"}: é bem bacana e dá idéia de quanto isso ajudará na conversão. Eles utilizaram a experiência mais fluída que foi testada bastante com o Shop Pay e o checkouts expressos nativos para chegar numa experiência que converte muito mais. (_sempre disse que One-Page Checkout no Brasil bombava, e vou morrer afirmando isso_ 😅)
 
 Para quem quiser entrar no early access, acesse a página [https://www.shopify.com/checkout](https://www.shopify.com/checkout){:target="_blank"} e preencha o seu email no final da página. :) 
 
 {% include image.html url="/assets/posts/2023/2023-02-23-shopify-winter-brasil-part1/one-page-early-access.png" width="70%" %}
 
-🔎 **Importante**: Não tem nenhuma informação na página do evento, mas é certo que o one page checkout não funcionará em conjunto com a customização do arquivo `checkout.liquid`, que era a forma antiga de customizar os checkouts.
+🔎 **Importante**: Não tem nenhuma informação na página do evento, mas é certo que o One-Page Checkout não funcionará em conjunto com a customização do arquivo `checkout.liquid`, que era a forma antiga de customizar os checkouts.
 
 Resumindo: quem tem hoje personalização de checkout (via `checkout.liquid` ou com aplicativo de checkout transparente), não vai conseguir usar o One-Page checkout.
 {:.notice}
@@ -58,7 +58,7 @@ Isso trouxe novamente aquele aviso importante para todos que utilizam esse artif
 
 ###### 👍🏽 [Editor de checkout fácil de usar](https://www.shopify.com/br/editions/winter2023?itcat=dotcom-br&itterm=editions#drag-and-drop-checkout-editor){:target="_blank"}
 
-O Editor de checkout trouxe novidades relevantes. Agora, o checkout pode ser versionado como os temas (para alegria do povo de UX/UI e devs que poderão testar o checkout com mais calma sem ter que impactar ninguém em produção) e com a nova estrutura de [customização e extensão de checkout](https://www.shopify.com/partners/blog/checkout-ui-extensions?itcat=partner_blog&itterm=checkout_extensibility){:target="_blank"} muito daquele trabalho de adicionar novos campos e mecânicas vai agora suportado "sem gambis".
+O Editor de checkout trouxe novidades relevantes. Agora, o checkout pode ser versionado como os temas (para alegria do povo de UX/UI e devs que poderão testar o checkout com mais calma sem ter que impactar ninguém em produção) e com a nova estrutura de [customização e extensão de checkout](https://www.shopify.com/partners/blog/checkout-ui-extensions?itcat=partner_blog&itterm=checkout_extensibility){:target="_blank"}(chamada de "Checkout Extensibility") muito daquele trabalho de adicionar novos campos e mecânicas vai agora suportado "sem gambis".
 
 > A grande idéia é que o merchant não precisará mais mexer no código e poder utilizar apps e o próprio editor para fazer as coisas que antes demandava um desenvolvedor para fazer. A era do low-code/no-code chega forte e reafirmada aqui.
 
@@ -72,7 +72,7 @@ Já o Cart Transform acompanha uma feature que irei comentar abaixo, que é espe
 
 Essa é uma feature apenas para lojistas plus.
 
-###### 👎🏽 Crie confiança com o Shop Promise e Comparas com login no Shop
+###### 👎🏽 Crie confiança com o Shop Promise e Compras com login no Shop
 
 Assim como todas as incríveis vantagens de usar o Shopify Payments, o Shop ainda não está disponível no Brasil. Então nos resta, por enquanto, babar com as possibilidades.
 
