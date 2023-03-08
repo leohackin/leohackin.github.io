@@ -14,6 +14,25 @@ Nesse (primeiro e humilde) video tutorial, explico como enviar uma notificação
 
 [![Thumbnail do video Notificando pagamentos via Whatsapp com Shopify Flow e Twillio](https://img.youtube.com/vi/vsV9Th810Nc/0.jpg)](https://www.youtube.com/watch?v=vsV9Th810Nc){:target="_blank"}
 
+> E não esquece de deixar o like e seguir o canal pra ajudar! 😘🤓
+
+As configurações do conector para facilitar a vida 😆:
+
+* **Tipo do conector**: Send Http request
+* **HTTP method**: POST
+* **URL**: `https://api.twilio.com/2010-04-01/Accounts/SEU-SID-DO-TWILLIO/Messages.json`
+* **Headers**:
+  * `Content-Type`: `application/x-www-form-urlencoded`
+  * `Authorization`: `Basic SEU-TOKEN-EM-BASE64`
+* **Body**:
+  {% highlight bash %}
+From=whatsapp:SEUNUMEROTOTWILLIO&To=whatsapp:55{{order.shippingAddress.phone | replace: " ", "" | replace: "-", ""}}&Body=Olá {{order.shippingAddress.firstName}}! O pagamento do seu pedido {{order.name}} acaba de ser confirmado.
+
+Em breve entraremos em contato com mais informações.
+
+Brigadão.
+{% endhighlight %}
+
 
 O código do template e o PPT da apresentação estão disponíveis abaixo. ;)
 
