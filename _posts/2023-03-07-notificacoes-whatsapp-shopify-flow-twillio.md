@@ -28,13 +28,16 @@ As configurações do conector para facilitar a vida 😆:
 * **Body**:
   {% highlight bash %}
   {% raw %}
-From=whatsapp:SEUNUMEROTOTWILLIO&To=whatsapp:55{{order.shippingAddress.phone | replace: " ", "" | replace: "-", ""}}&Body=Olá {{order.shippingAddress.firstName}}! O pagamento do seu pedido {{order.name}} acaba de ser confirmado.
+From=whatsapp:SEUNUMEROTOTWILLIO&To=whatsapp:55{{order.billingAddress.phone | replace: " ", "" | replace: "-", ""}}&Body=Olá {{order.shippingAddress.firstName}}! O pagamento do seu pedido {{order.name}} acaba de ser confirmado.
 
 Em breve entraremos em contato com mais informações.
 
 Brigadão.
 {% endraw %}
 {% endhighlight %}
+
+**Nota de correção**: no vídeo falei sobre usar o **shippingAddress** no telefone, mas para garantir que a mensagem chegue para quem de fato pagou o pedido, mudei para **billingAddress**. :)
+{:.notice}
 
 
 O código do template e o PPT da apresentação estão disponíveis abaixo. ;)
