@@ -27,11 +27,13 @@ As configurações do conector para facilitar a vida 😆:
   * `Authorization`: `Basic SEU-TOKEN-EM-BASE64`
 * **Body**:
   {% highlight bash %}
-From=whatsapp:SEUNUMEROTOTWILLIO&To=whatsapp:55\{\{order.shippingAddress.phone | replace: " ", "" | replace: "-", ""\}\}&Body=Olá {{order.shippingAddress.firstName}}! O pagamento do seu pedido {{order.name}} acaba de ser confirmado.
+  {% raw %}
+From=whatsapp:SEUNUMEROTOTWILLIO&To=whatsapp:55{{order.shippingAddress.phone | replace: " ", "" | replace: "-", ""}}&Body=Olá {{order.shippingAddress.firstName}}! O pagamento do seu pedido {{order.name}} acaba de ser confirmado.
 
 Em breve entraremos em contato com mais informações.
 
 Brigadão.
+{% endraw %}
 {% endhighlight %}
 
 
