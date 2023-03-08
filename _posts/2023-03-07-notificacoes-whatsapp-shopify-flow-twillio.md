@@ -14,7 +14,8 @@ Nesse (primeiro e humilde) video tutorial, explico como enviar uma notificação
 
 [![Thumbnail do video Notificando pagamentos via Whatsapp com Shopify Flow e Twillio](https://img.youtube.com/vi/vsV9Th810Nc/0.jpg)](https://www.youtube.com/watch?v=vsV9Th810Nc){:target="_blank"}
 
-> E não esquece de deixar o like e seguir o canal pra ajudar! 😘🤓
+E não esquece de deixar o like e seguir o canal pra ajudar! 😘🤓
+{:.notice}
 
 As configurações do conector para facilitar a vida 😆:
 
