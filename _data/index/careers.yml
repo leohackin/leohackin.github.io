@@ -1,9 +1,14 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Insider Store
+  link: http://insiderstore.com.br
+  date: 2023 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Principal Engineer
+
 - name: Sallve.com.br
   link: http://www.resultadosdigitais.com/
-  date: 2020 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  job: Diretor de tecnologia :)
+  date: 2020 - 2023
+  job: Diretor de tecnologia
 
 - name: Resultados Digitais
   link: http://www.resultadosdigitais.com/
