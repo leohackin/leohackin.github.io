@@ -4,7 +4,7 @@
 
 __Aloha,__
 
-Tenho 41 anos, cronologicamente comprovados em cartório. Moro em Vila Velha, um cidadezinha tropical bacana do Espírito Santo. Estou _na pista_ desde 96 e programar já era paixão: culpa de um [TK9000](https://pt.wikipedia.org/wiki/TK-90X) ligado na televisão, que rodava um BASIC meio torto e me deixava rodar jogos com fitas cassete. Alguns anos depois, minha mãe comprou um [MSX Expert XP-800](https://pt.wikipedia.org/wiki/MSX#Expert_XP-800) da Gradiente e a paixão bateu forte: os programas em Basic agora tinham cores e uma DSL que funcionava bem. Fiz meus primeiros menus de jogos nos super novos disquetes de 3 1/2".
+Tenho 43 anos, cronologicamente comprovados em cartório. Moro em Vila Velha, um cidadezinha tropical bacana do Espírito Santo. Estou _na pista_ desde 96 e programar já era paixão: culpa de um [TK9000](https://pt.wikipedia.org/wiki/TK-90X) ligado na televisão, que rodava um BASIC meio torto e me deixava rodar jogos com fitas cassete. Alguns anos depois, minha mãe comprou um [MSX Expert XP-800](https://pt.wikipedia.org/wiki/MSX#Expert_XP-800) da Gradiente e a paixão bateu forte: os programas em Basic agora tinham cores e uma DSL que funcionava bem. Fiz meus primeiros menus de jogos nos super novos disquetes de 3 1/2".
     
 Ainda jovem, descobri que o que gostava era de **ajudar as pessoas** e a tecnologia foi a melhor forma que encontrei para fazer isso acontecer de uma forma mais palpável. Uma epifania engraçada mas reveladora que [aconteceu novamente agora em 2019](https://medium.com/@leohackin/balan%C3%A7o-2019-at%C3%A9-mais-e-obrigado-pelos-peixes-8e6eeb5d1516) e me fez voltar a programar.
     
