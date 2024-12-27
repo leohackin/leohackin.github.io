@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Léo Hackin @ 2023
+title: Léo Hackin @ 2024
 author: Léo Hackin
 email:
 description: Dev, Geek e Incorrigível Otimista que gosta de criar coisas e resolver problemas (quase sempre) com tecnologia.
@@ -13,13 +13,12 @@ keywords:
     "blog",
     "leohackin",
     "software engineer",
+    "shopify",
     "engineering",
     "development",
-    "gtd",
-    "ztd",
-    "pomodoros",
+    "productivity",
+    "techleadership",
     "ecommerce",
-    "shopify"
   ]
 
 plugins:
@@ -58,10 +57,10 @@ kramdown:
 #
 owner:
   name: Léo Hackin
-  avatar: hackin.png
+  avatar: leohackin2024.png
   # job: "No flow de aprendizado contínuo"
-  bio: "Dev, Geek e Incorrigível Otimista que gosta de criar coisas e resolver problemas (quase sempre) com tecnologia."
-  email:
+  bio: "Principal Engineer @ Insider Store | Especialista Shopify | Dev, Geek, INQUIETO e Incorrigível Otimista que gosta de criar coisas e resolver problemas (quase sempre) com tecnologia"
+  email: leohackin@gmail.com
   disqus-shortname: leohackin
   twitter: leohackin
   facebook: #leohackin
